@@ -1,0 +1,470 @@
+*{padding:0;margin:0;line-height: 0;}
+html,body{width:100%;height:100%;}
+.swiper-slide{
+    position: relative;
+    background-image: url(../images/bg.png) ;
+    background-size:100% 100%;
+}
+.swiper-slide .jiantou{
+    width:0.6rem;height:0.36rem;
+    left:50%;top:90%;margin-left: -0.3rem;opacity: 0.5;
+    animation: icon_k 1.2s linear infinite;
+}
+@keyframes icon_k{
+    0%{ transform: translateY(-0.2rem)}
+    15%{ transform: translateY(0rem)}
+    100%{transform: translateY(0.2rem)}
+}
+.swiper-slide .music{
+position: fixed;left:80%;top:0.5rem;
+
+}
+ .music_an{
+     animation: zhuan 5s linear infinite;
+ }
+ @keyframes zhuan {
+     0%{transform: rotate(0deg)}
+     100%{transform: rotate(360deg)}
+ }
+.swiper-slide img{
+    position: absolute;left:0;top:0;
+}
+.swiper-slide .kuang{
+    /*width:1.75rem;height:1.75rem;*/
+  left:30%;top:0.8rem;
+
+}
+.swiper-slide .kuang-l{
+    /*width:1.59rem;height:1.59rem;*/
+    left:44.6%;top:0.95rem;margin-left:-0.8rem;
+}
+.swiper-slide .ziji{
+    width:2.65rem;height:2.65rem;
+    border-radius: 50%;
+    left:45.8%;top:1.05rem;margin-left:-0.8rem;
+}
+.nav-top{list-style: none;
+margin-top:2rem;}
+.jl1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0.25em;
+    background-color: initial;
+}
+.jl2{
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    line-height: inherit;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+    background-color: initial;
+    padding-top:0.6rem;
+}
+.jh{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: inherit;
+    letter-spacing: 0.1em;
+    background-color: initial;
+    display: inline-block;
+    padding-top:2rem;
+}
+.jh2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: inherit;
+    letter-spacing: 0.1em;
+    background-color: initial;
+    display: inline-block;
+    padding-top:2rem;
+}
+.swiper-slide .img-end{
+width:4.5rem;
+    left:1rem;top:80%;
+}
+.swiper-slide .img-end2{
+    opacity: 0;
+    left:1.5rem;top:82.5%;
+}
+.swiper-slide .img-end3{
+    opacity: 0;
+    left:4.7rem;top:82.5%;
+}
+.end-z{
+    display: inline-block;
+    font-size: 18px;
+    line-height: inherit;
+    letter-spacing: 0.3em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: initial;
+    position: absolute;
+    left:2.2rem;top:83.5%;
+}
+/*222222222222*/
+.swiper-slide .left{
+    /*width:1.06rem;height:0.13rem;*/
+   left:0;top:1.5rem;
+}
+.swiper-slide .right{
+    /*width:1.12rem;height:0.13rem;*/
+   top:1.5rem; left:4.4rem;
+                }
+.swiper-slide .mul{
+   left:2.5rem;top:1.25rem;
+    z-index: 1;
+}
+.swiper-slide .mul-w{
+    left:2.1rem;top:0.5rem;
+    transform: rotate(45deg);
+}
+.swiper-slide .mul-w2{
+    left:2.1rem;top:0.5rem;
+}
+.nav-2{list-style: none;
+    position: absolute;
+    left:1.5rem;top:3rem;
+}
+.nav-2>li{
+    margin-bottom:0.5rem;
+    height:0.2rem;
+}
+/*、li1*/
+.shu1{
+    width: 0.7rem;
+    height: 0.7rem;
+
+}
+.nav-2 .jt-left {
+    position: absolute;
+    width: 0.5rem;
+    height:0.5rem;
+    left:1.1rem;top:0.1rem;
+}
+.nav-2 .zi-wai{
+    position: absolute;
+    width: 2rem;
+    height:0.7rem;
+    left:1.9rem;
+}
+.nav-2 .ge{
+    display: inline-block;
+    line-height: inherit;
+    font-family:微软雅黑;
+    font-size: 24px;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    margin-left:2rem;
+    margin-top:0.35rem;
+}
+.nav-2 .h-r{
+   position: absolute;
+
+    width: 6.4rem;
+    height:0.08rem;
+    margin-top: 0;
+    margin-left: -1.5rem;
+    top:1rem;
+}
+/*li2*/
+.nav-2 .shu2{
+    width: 0.7rem;
+    height: 0.7rem;
+position: absolute;left:3rem;
+    top:1.4rem;
+}
+.nav-2 .jt-right {
+    position: absolute;
+    width: 0.5rem;
+    height:0.5rem;
+    left:2.2rem;top:1.5rem;
+}
+.nav-2 .zi-wai2{
+    position: absolute;
+    width: 2rem;
+    height:0.7rem;
+    top:1.45rem;left:-0.1rem;
+}
+.nav-2 .ge2{
+    display: inline-block;
+    line-height: inherit;
+    font-family:微软雅黑;
+    font-size: 24px;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    margin-left:-1.9rem;
+    margin-top:0.4rem;
+}
+.nav-2 .h-r2{
+    position: absolute;
+    width: 6.4rem;
+    height:0.08rem;
+    margin-top: 0;
+    margin-left: -1.5rem;
+    top:2.5rem;
+}
+/*li-3*/
+.nav-2 .shu3{
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    top:2.9rem;
+}
+.nav-2 .jt-left2 {
+    position: absolute;
+    width: 0.5rem;
+    height:0.5rem;
+    left:1.1rem;top:3rem;
+}
+.nav-2 .zi-wai3{
+    position: absolute;
+    width: 2rem;
+    height:0.8rem;
+    left:1.9rem;top:2.9rem;
+}
+.nav-2 .ge3{
+    display: inline-block;
+    line-height: inherit;
+    font-family:微软雅黑;
+    font-size: 24px;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    margin-left:2rem;
+    padding-top:0.5rem;
+}
+.nav-2 .h-r3{
+    position: absolute;
+
+    width: 6.4rem;
+    height:0.08rem;
+    margin-top: 0;
+    margin-left: -1.5rem;
+    top:4rem;
+}
+/*//44444*/
+.nav-2 .shu4{
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;left:3rem;
+    top:4.4rem;
+}
+.nav-2 .jt-right2 {
+    position: absolute;
+    width: 0.5rem;
+    height:0.5rem;
+    left:2.2rem;top:4.5rem;
+}
+.nav-2 .zi-wai4{
+    position: absolute;
+    width: 2rem;
+    height:0.7rem;
+    top:4.4rem;left:-0.1rem;
+}
+.nav-2 .ge4{
+    display: inline-block;
+    line-height: inherit;
+    font-family:微软雅黑;
+    font-size: 24px;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    margin-left:-1.9rem;
+    margin-top:0.5rem;
+}
+.nav-2 .h-r4{
+    position: absolute;
+
+    width: 6.4rem;
+    height:0.08rem;
+    margin-top: 0;
+    margin-left: -1.5rem;
+    top:5.5rem;
+}
+/*555*/
+.nav-2 .shu5{
+    width: 0.7rem;
+    height: 0.7rem;
+    position: absolute;
+    top:5.9rem;
+}
+.nav-2 .jt-left3 {
+    position: absolute;
+    width: 0.5rem;
+    height:0.5rem;
+    left:1.1rem;top:6rem;
+}
+.nav-2 .zi-wai5{
+    position: absolute;
+    width: 2rem;
+    height:0.8rem;
+    left:1.9rem;top:5.9rem;
+}
+.nav-2 .ge5{
+    display: inline-block;
+    line-height: inherit;
+    font-family:微软雅黑;
+    font-size: 24px;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    margin-left:2rem;
+    padding-top:0.7rem;
+}
+
+
+/*333*/
+
+.xinxi{
+    line-height: inherit;
+    font-family: weiruanyahei;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: initial;
+    position: absolute;left:0.5rem;
+    top:1.5rem;
+}
+.swiper-slide .xinxi-wai{
+    width:2.3rem;height:0.7rem;
+    left:0.3rem;top:1.15rem;
+}
+
+h1{
+    font:0.5rem 黑体;color:#BBBBBB;
+    position: absolute;left:2.4rem;top:3.7rem;
+
+}
+
+.ul-2{
+    list-style: none;
+    font:0.5rem 黑体;color:#BBBBBB;
+    position: absolute;left:1rem;top:5.4rem;
+}
+.ul-2>li{padding-bottom:0.8rem;
+    width:4rem;
+   }
+.ul-li1{
+    animation: two-li1 2s linear ;
+    animation-fill-mode:both;
+    /*margin-left:-1rem*/
+}
+
+.ul-li2{
+    animation: two-li2 3s 2s linear ;
+    animation-fill-mode:both;
+    /*margin-left:1rem;*/
+   }
+
+.ul-li3{
+    animation: two-li3 2s 5s linear ;
+    animation-fill-mode:both;
+    /*margin-left:-1rem*/
+}
+
+.ul-li4{
+    animation: two-li4 3s 7s linear ;
+    animation-fill-mode:both;
+    /*margin-left:1rem;*/
+}
+
+.ul-li5{
+    animation: two-li5 2s 10s linear ;
+    animation-fill-mode:both;
+    /*margin-left:-1rem*/
+}
+
+.swiper-slide .caise{
+    left:5%;top:3.5rem;
+    width:90%;
+}
+
+/* 技能*/
+.end-zhuan{
+    list-style: none;
+    position: absolute;
+    left:0.7rem;top:3rem;
+}
+.end-zhuan>li{
+    padding-bottom:0.5rem;
+
+}
+.quan{
+/*width:1rem;height:1rem;z-index: 1;*/
+
+}
+.ps{    display: inline-block;
+    color: rgb(12, 82, 158);
+    font-weight: bold;
+    width:1.25rem;height:1.25rem;
+    font: 0.6rem 微软雅黑;
+    background-color:#fff;
+    border-radius: 50%;
+    z-index: 99;
+   line-height: 1.25rem;
+
+}
+progress{
+    width:3.5rem;height:0.6rem;
+
+    border:1px dashed #916671;
+    background-color:#5d988e;
+    /*火狐的总进度*/
+}
+/*火狐的完成进度*/
+progress::-moz-progress-bar{background: #7ff5e4;}
+/*谷歌。。2345总进度*/
+progress::-webkit-progress-bar
+{
+    background-color:#5d988e;
+
+}
+/*谷歌..2345已完成的进度*/
+progress::-webkit-progress-value
+{
+    background-color:#7ff5e4;
+
+}
+.swiper-slide .xm1{
+    width:2.5rem;height:4rem;
+    left:0.5rem;top:3rem;
+    transform: rotate(-15deg);
+}
+.swiper-slide .xm2{
+    width:2.5rem;height:4rem;
+    left:3.3rem;top:7rem;
+    transform: rotate(15deg);
+}
+.swiper-slide .xm3{
+    width:2rem;height:4rem;
+    left:4rem;top:2rem;
+}
+.swiper-slide .xm4{
+     width:2rem;height:3rem;
+    top:7.5rem;left:0.5rem;
+ }
+
+.pj{
+    font:0.4rem 微软雅黑;
+    width:5rem;
+    text-align: left;
+
+}
+.end-ul{
+    list-style: none;
+}
+.end-ul>li{
+    font:0.4rem 微软雅黑;
+    text-align: left;padding-left:0.2rem;
+    line-height: 1rem;
+    border:0.01rem dashed #BBBBBB;
+    margin-bottom:0.2rem;color:#fff;
+}
+.swiper-slide .ens{
+  width:90%;left:5%;
+    top:90%;
+}
+.end-www{
+    font:0.6rem 黑体;color:#000;
+    position: absolute;left:1.4rem;top:77%;
+}

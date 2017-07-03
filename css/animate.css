@@ -1,0 +1,23 @@
+.swiper-slide .kuang{
+    animation: k1 5s linear infinite;
+}
+@keyframes k1 {
+    0%{  transform: rotate(0deg)}
+    100%{  transform: rotate(360deg)}
+}
+.swiper-slide .kuang-l{
+    animation: k2 5s linear infinite;
+}
+@keyframes k2 {
+    0%{  opacity:1;}
+    25%{  opacity: 0}
+    50%{  opacity: 1}
+    100%{  opacity: 0}
+}
+.swiper-slide .mul-w2{
+    animation: mulu 2s linear infinite;
+}
+@keyframes mulu {
+    0%{  transform: rotate(0deg)}
+    100%{  transform: rotate(360deg)}
+}
